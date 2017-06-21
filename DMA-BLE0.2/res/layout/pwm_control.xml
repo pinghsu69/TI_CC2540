@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/ui_current"
+    android:keepScreenOn="true"
+    >
+
+    <include
+        android:id="@+id/mytitle"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        layout="@layout/title" 
+        />
+
+    <SeekBar
+        android:id="@+id/sb_v"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_x="70dp"
+        android:layout_y="350dp"
+        android:max="50"
+        android:progress="20"
+        android:progressDrawable="@drawable/seekbar_img"
+        android:thumb="@drawable/thumb" 
+        />
+
+    <TextView
+        android:id="@+id/tv_v"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="175dp"
+        android:layout_y="320dp"
+        android:text="0" 
+        android:textColor="#4ec2ff"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="175dp"
+        android:layout_y="165dp"
+        android:text="0" 
+        android:textColor="#4ec2ff"
+        android:textSize="18sp"
+        />
+
+    <SeekBar
+        android:id="@+id/sb_c"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_x="70dp"
+        android:layout_y="200dp"
+        android:max="48"
+        android:progressDrawable="@drawable/seekbar_img"
+        android:thumb="@drawable/thumb" />
+
+</AbsoluteLayout>

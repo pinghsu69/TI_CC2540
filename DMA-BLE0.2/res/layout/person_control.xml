@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/person_bg"
+    android:keepScreenOn="true"
+    >
+    
+    
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/person_bg" 
+        />
+    
+    <include
+        android:id="@+id/mytitle"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        layout="@layout/title" 
+        />
+
+</RelativeLayout>

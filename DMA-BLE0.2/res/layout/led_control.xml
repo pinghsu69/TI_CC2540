@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/led_bg"
+    android:keepScreenOn="true"
+    >
+
+    <include
+        android:id="@+id/mytitle"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        layout="@layout/title" 
+        />
+
+    <Switch
+        android:id="@+id/led_1_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="100dp"
+        android:layout_y="456dp"
+        android:textOn="打開"
+        android:textOff="關閉"
+        />
+    
+    <Switch
+        android:id="@+id/led_2_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="240dp"
+        android:layout_y="456dp"
+        android:textOn="打開"
+        android:textOff="關閉"
+        />
+
+    <ImageView
+        android:id="@+id/led_2_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="204dp"
+        android:layout_y="204dp"
+        android:background="@drawable/led_on" />
+
+    <ImageView
+        android:id="@+id/led_1_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="160dp"
+        android:layout_x="69dp"
+        android:layout_y="207dp"
+        android:background="@drawable/led_on" />
+
+    
+
+</AbsoluteLayout>

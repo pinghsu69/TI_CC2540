@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/ui_relay_close"
+    android:keepScreenOn="true"
+    >
+    
+     
+
+    <ImageView
+        android:id="@+id/iv_relay"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:background="@drawable/ui_relay_close"
+        />
+    
+    <include
+        android:id="@+id/mytitle"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        layout="@layout/title" 
+        />
+
+    
+        <Switch
+        android:id="@+id/sw_relay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="138dp"
+        android:layout_y="440dp"
+        android:textOn="打開"
+        android:textOff="關閉"
+        />
+    
+
+
+</AbsoluteLayout>

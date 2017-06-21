@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/scan_bg"
+    android:keepScreenOn="true"
+    >
+    
+    <include
+        android:id="@+id/mytitle"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        layout="@layout/title" 
+        />
+
+    <ImageButton
+        android:id="@+id/ib_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/mytitle"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="91dp"
+        android:background="@drawable/scan_bt"
+        android:onClick="OnTouchScan" />
+    
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/ui_sht"
+    android:keepScreenOn="true"
+    >
+    
+    <include
+        android:id="@+id/mytitle"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        layout="@layout/title" 
+        />
+
+    <TextView
+        android:id="@+id/tv_humi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="58dp"
+        android:layout_x="223dp"
+        android:layout_y="242dp"
+        android:text="90" 
+        android:textColor="#50b4f5"
+        />
+
+    <TextView
+        android:id="@+id/tv_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="105dp"
+        android:layout_y="242dp"
+        android:text="90" 
+        android:textColor="#ff7777"
+        />
+
+    <ImageView
+        android:id="@+id/iv_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_x="87dp"
+        android:layout_y="195dp"
+        android:background="@drawable/ui_sht_red_plus" />
+
+    <ImageView
+        android:id="@+id/iv_humi"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:layout_x="203dp"
+        android:layout_y="190dp"
+        android:background="@drawable/ui_sht_blueness_plus" />
+
+</AbsoluteLayout>
